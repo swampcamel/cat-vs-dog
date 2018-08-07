@@ -6,5 +6,13 @@ $(document).ready(function() {
   $("button#dogbtn").click(function() {
   $("ul#meow").append("<li>MEOW</li>");
   $("li").addClass("list-group-item");
-    });
+  });
+});
+$(document).ready(function() {
+  $("#catshow").click(function() {
+    $("#cat2").toggle();
+  });
+  $("#dogshow").click(function() {
+    $("#dog2").toggle();
+  });
 });
